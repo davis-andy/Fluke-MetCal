@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>cfb17bba-6ea2-46f6-b4ad-3e9bb3561a33</ProjectGuid>
+    <RootNamespace>Day_1</RootNamespace>
+    <AssemblyName>Day 1</AssemblyName>
+    <Name>Examples from training</Name>
+    <PackageDate>2023-07-20</PackageDate>
+    <InstrumentLine1>Examples</InstrumentLine1>
+    <PublishFileName>Day 1</PublishFileName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Examples.mc">
+      <MainProcedure>True</MainProcedure>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="C:\ProgramData\Fluke\METCAL\shared\pic\3.14.JPG" />
+  </ItemGroup>
+</Project>

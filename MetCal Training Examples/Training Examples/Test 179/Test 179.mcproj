@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>4e9600c0-bb7d-4379-8179-a6117f28fc16</ProjectGuid>
+    <RootNamespace>Test_179</RootNamespace>
+    <AssemblyName>Test 179</AssemblyName>
+    <Name>Test 179</Name>
+    <PackageDate>2023-07-20</PackageDate>
+    <InstrumentLine1>179 Handheld DMM Validation</InstrumentLine1>
+    <InstrumentLine2>
+    </InstrumentLine2>
+    <PublishFileName>Test 179</PublishFileName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Sub Fuse Test.mc">
+      <MainProcedure>False</MainProcedure>
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Validation AC Volts.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="Sub Validation Capacitance Continuity Diode 5500.mc" />
+    <Compile Include="Sub Validation Capacitance Continuity Diode 5502E.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="Sub Validation Current 5500.mc" />
+    <Compile Include="Sub Validation Current 5502E.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="Sub Validation DC Volts 5500.mc" />
+    <Compile Include="Sub Validation DC Volts 5502E.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="Sub Validation Resistance.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="Sub Validation Temp.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="Validation.mc">
+      <MainProcedure>True</MainProcedure>
+      <SectionedProcedure>True</SectionedProcedure>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="C:\ProgramData\Fluke\METCAL\shared\pic\5520_179_tc.jpg" />
+    <Content Include="C:\ProgramData\Fluke\METCAL\shared\pic\5520_17x_2w.jpg" />
+    <Content Include="C:\ProgramData\Fluke\METCAL\shared\pic\5520_17x_cw.jpg" />
+    <Content Include="C:\ProgramData\Fluke\METCAL\shared\pic\5520_17x_hi_amps.jpg" />
+    <Content Include="C:\ProgramData\Fluke\METCAL\shared\pic\5520_17x_lo_amps.jpg" />
+  </ItemGroup>
+</Project>

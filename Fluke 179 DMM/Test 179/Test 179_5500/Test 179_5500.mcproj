@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>dc749165-3b07-4d3d-a160-edf43ecf0568</ProjectGuid>
+    <RootNamespace>Test_179_5500</RootNamespace>
+    <AssemblyName>Test 179_5500</AssemblyName>
+    <Name>Test 179_5500</Name>
+    <InstrumentLine1>179 Handheld DMM Validation</InstrumentLine1>
+    <PackageDate>2023-07-21</PackageDate>
+    <PublishFileName>Test 179_5500</PublishFileName>
+    <Author>Andy Davis</Author>
+    <Interval>1 Year</Interval>
+    <UutType>Handheld DMM</UutType>
+    <PublishFileType>pxe</PublishFileType>
+    <Uut1ManfSetting>Fluke</Uut1ManfSetting>
+    <Uut1Setting>179</Uut1Setting>
+    <Standard1ManfSetting>Fluke</Standard1ManfSetting>
+    <Standard1Setting>5500A</Standard1Setting>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Sub Validation AC Volts 5500.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Validation Capacitance Continuity Diode 5500.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Validation Current 5500.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Validation DC Volts 5500.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Validation Resistance 5500.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Validation Temp 5500.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Validation 5500.mc">
+      <MainProcedure>True</MainProcedure>
+      <SectionedProcedure>True</SectionedProcedure>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="5500_179_tc.jpg" />
+    <Content Include="5500_17x_2w.jpg" />
+    <Content Include="5500_17x_cw.jpg" />
+    <Content Include="5500_17x_hi_amps.jpg" />
+    <Content Include="5500_17x_lo_amps.jpg" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>bfc6ce61-8cfe-4f5b-a405-8bef1915fe55</ProjectGuid>
+    <RootNamespace>Test_179_5502E</RootNamespace>
+    <AssemblyName>Test 179_5502E</AssemblyName>
+    <Name>Test 179_5502E</Name>
+    <InstrumentLine1>179 Handheld DMM Validation</InstrumentLine1>
+    <PackageDate>2023-07-21</PackageDate>
+    <PublishFileName>Test 179_5502E</PublishFileName>
+    <Author>Andy Davis</Author>
+    <Interval>1 Year</Interval>
+    <UutType>Handheld DMM</UutType>
+    <PublishFileType>pxe</PublishFileType>
+    <Uut1ManfSetting>Fluke</Uut1ManfSetting>
+    <Uut1Setting>179</Uut1Setting>
+    <Standard1ManfSetting>Fluke</Standard1ManfSetting>
+    <Standard1Setting>5502E</Standard1Setting>
+    <Standard2ManfSetting>Fluke</Standard2ManfSetting>
+    <Standard2Setting>5502A</Standard2Setting>
+    <Standard3ManfSetting>Fluke</Standard3ManfSetting>
+    <Standard3Setting>5520A</Standard3Setting>
+    <Standard4ManfSetting>Fluke</Standard4ManfSetting>
+    <Standard4Setting>5522A</Standard4Setting>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Sub Validation AC Volts 5502E.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Validation Capacitance Continuity Diode 5502E.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Validation Current 5502E.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Validation DC Volts 5502E.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Validation Resistance 5502E.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Validation Temp 5502E.mc">
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Validation 5502E.mc">
+      <MainProcedure>True</MainProcedure>
+      <SectionedProcedure>True</SectionedProcedure>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="5520_179_tc.jpg" />
+    <Content Include="5520_17x_2w.jpg" />
+    <Content Include="5520_17x_cw.jpg" />
+    <Content Include="5520_17x_hi_amps.jpg" />
+    <Content Include="5520_17x_lo_amps.jpg" />
+  </ItemGroup>
+</Project>

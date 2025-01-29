@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TagMap pxe="Test 179.pxe">
+    <Tag name="AC VOLTS" parent="">
+        <Description></Description>
+        <Procedure start="begin_AC_Volts" end="end_AC_Volts">Test 179</Procedure>
+        <Notes></Notes>
+        <HasOperatorPrompts>False</HasOperatorPrompts>
+        <IsRequired>True</IsRequired>
+        <IsSelected>False</IsSelected>
+        <HasRun>False</HasRun>
+        <PartialCalInfoApplied>False</PartialCalInfoApplied>
+    </Tag>
+    <Tag name="DC VOLTS" parent="">
+        <Description></Description>
+        <Procedure start="begin_DC_Volts" end="end_DC_Volts">Test 179</Procedure>
+        <Notes></Notes>
+        <HasOperatorPrompts>False</HasOperatorPrompts>
+        <IsRequired>True</IsRequired>
+        <IsSelected>False</IsSelected>
+        <HasRun>False</HasRun>
+        <PartialCalInfoApplied>False</PartialCalInfoApplied>
+    </Tag>
+    <Tag name="RESISTANCE" parent="">
+        <Description></Description>
+        <Procedure start="begin_Ohms" end="end_Ohms">Test 179</Procedure>
+        <Notes></Notes>
+        <HasOperatorPrompts>False</HasOperatorPrompts>
+        <IsRequired>True</IsRequired>
+        <IsSelected>False</IsSelected>
+        <HasRun>False</HasRun>
+        <PartialCalInfoApplied>False</PartialCalInfoApplied>
+    </Tag>
+    <Tag name="CAPACITANCE" parent="">
+        <Description></Description>
+        <Procedure start="begin_Capacitance" end="end_Capacitance">Test 179</Procedure>
+        <Notes></Notes>
+        <HasOperatorPrompts>False</HasOperatorPrompts>
+        <IsRequired>True</IsRequired>
+        <IsSelected>False</IsSelected>
+        <HasRun>False</HasRun>
+        <PartialCalInfoApplied>False</PartialCalInfoApplied>
+    </Tag>
+    <Tag name="CONTINUITY" parent="">
+        <Description></Description>
+        <Procedure start="begin_Continuity" end="end_Continuity">Test 179</Procedure>
+        <Notes></Notes>
+        <HasOperatorPrompts>False</HasOperatorPrompts>
+        <IsRequired>True</IsRequired>
+        <IsSelected>False</IsSelected>
+        <HasRun>False</HasRun>
+        <PartialCalInfoApplied>False</PartialCalInfoApplied>
+    </Tag>
+    <Tag name="DIODE" parent="">
+        <Description></Description>
+        <Procedure start="begin_Diode" end="end_Diode">Test 179</Procedure>
+        <Notes></Notes>
+        <HasOperatorPrompts>False</HasOperatorPrompts>
+        <IsRequired>True</IsRequired>
+        <IsSelected>False</IsSelected>
+        <HasRun>False</HasRun>
+        <PartialCalInfoApplied>False</PartialCalInfoApplied>
+    </Tag>
+    <Tag name="CURRENT - MILLIAMPS" parent="">
+        <Description></Description>
+        <Procedure start="begin_Current_MilliAmps" end="end_Current_MilliAmps">Test 179</Procedure>
+        <Notes></Notes>
+        <HasOperatorPrompts>False</HasOperatorPrompts>
+        <IsRequired>True</IsRequired>
+        <IsSelected>False</IsSelected>
+        <HasRun>False</HasRun>
+        <PartialCalInfoApplied>False</PartialCalInfoApplied>
+    </Tag>
+    <Tag name="CURRENT - AMPS" parent="">
+        <Description></Description>
+        <Procedure start="begin_Current_Amps" end="end_Current_Amps">Test 179</Procedure>
+        <Notes></Notes>
+        <HasOperatorPrompts>False</HasOperatorPrompts>
+        <IsRequired>True</IsRequired>
+        <IsSelected>False</IsSelected>
+        <HasRun>False</HasRun>
+        <PartialCalInfoApplied>False</PartialCalInfoApplied>
+    </Tag>
+    <Tag name="TEMPERATURE" parent="">
+        <Description></Description>
+        <Procedure start="begin_Temp" end="end_Temp">Test 179</Procedure>
+        <Notes></Notes>
+        <HasOperatorPrompts>False</HasOperatorPrompts>
+        <IsRequired>True</IsRequired>
+        <IsSelected>False</IsSelected>
+        <HasRun>False</HasRun>
+        <PartialCalInfoApplied>False</PartialCalInfoApplied>
+    </Tag>
+</TagMap>

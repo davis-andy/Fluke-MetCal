@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>5a2ac596-5dd3-4ea4-91b1-a899a6c1ed3e</ProjectGuid>
+    <RootNamespace>warranted</RootNamespace>
+    <AssemblyName>warranted</AssemblyName>
+    <Name>warranted</Name>
+    <PackageDate>2023-07-20</PackageDate>
+    <InstrumentLine1>Sub Fluke 179 (1 yr) VER /5502</InstrumentLine1>
+    <PublishFileName>warranted</PublishFileName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="..\..\..\other\5520_179_TC.jpg" />
+    <Content Include="..\..\..\other\5520_17x_2W.jpg" />
+    <Content Include="..\..\..\other\5520_17x_CW.jpg" />
+    <Content Include="..\..\..\other\5520_17x_hi_amps.jpg" />
+    <Content Include="..\..\..\other\5520_17x_lo_amps.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\other\Fluke 179 1 Yr Ver using 5522A.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="..\..\..\other\sub_fluke_175_177_179_1yr_aci_dci_ver_5502.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="..\..\..\other\sub_fluke_175_177_179_1yr_acv_ohms_cap_cont_ver_5502.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="..\..\..\other\sub_fluke_177_179_1yr_dcv_ver_5502.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="..\..\..\other\sub_fluke_179_1yr_temp_ver_5502.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="..\..\..\other\sub_fluke_179_1yr_ver_5502.mc">
+      <MainProcedure>True</MainProcedure>
+    </Compile>
+    <Compile Include="..\..\..\other\sub_ini_file_io.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="..\..\..\other\sub_oper_prompts.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="..\..\..\other\sub_rif_wif_utils.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="..\..\..\other\sub_safety_warnings.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="..\..\..\other\sub_select_gb_method.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="..\..\..\other\sub_select_ver_method.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+  </ItemGroup>
+</Project>

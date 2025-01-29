@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# MET/CAL Solution File
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{0A95F279-908B-4153-BB12-D9936C7938D9}") = "Test 179_5502E", "Test 179_5502E\Test 179_5502E.mcproj", "{BFC6CE61-8CFE-4F5B-A405-8BEF1915FE55}"
+EndProject
+Project("{0A95F279-908B-4153-BB12-D9936C7938D9}") = "Test 179_5500", "Test 179_5500\Test 179_5500.mcproj", "{DC749165-3B07-4D3D-A160-EDF43ECF0568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC6CE61-8CFE-4F5B-A405-8BEF1915FE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC6CE61-8CFE-4F5B-A405-8BEF1915FE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC749165-3B07-4D3D-A160-EDF43ECF0568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC749165-3B07-4D3D-A160-EDF43ECF0568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

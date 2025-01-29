@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c654d83a-2ca7-4532-a7c2-86b3a2738c3a}</ProjectGuid>
+    <RootNamespace>_179_1yr_Ver</RootNamespace>
+    <AssemblyName>179_1yr_Ver</AssemblyName>
+    <Name>Fluke 179 1 Year Verification using 5522A</Name>
+    <Author>Fluke Calibration</Author>
+    <Company>Fluke</Company>
+    <Copyright>Copyright (c) (2018) Fluke Corporation. All rights reserved.</Copyright>
+    <ProcedureType>Verification</ProcedureType>
+    <Interval>1 year</Interval>
+    <UutType>DMM</UutType>
+    <UutControlType>Manual</UutControlType>
+    <PackageDate>2021-05-08</PackageDate>
+    <PublishFileType>multi</PublishFileType>
+    <Uut1ManfSetting>Fluke</Uut1ManfSetting>
+    <Uut1Setting>179</Uut1Setting>
+    <Standard1ManfSetting>Fluke</Standard1ManfSetting>
+    <Standard1Setting>5520A or 5522A</Standard1Setting>
+    <InstrumentLine1>Fluke 179: (1 year) VER /5522A</InstrumentLine1>
+    <ExecutionTime>15 minutes</ExecutionTime>
+    <Version>20180411</Version>
+    <TestedWith1ManfSetting>Fluke</TestedWith1ManfSetting>
+    <TestedWith1ModelSetting>179</TestedWith1ModelSetting>
+    <TestedWith1SnSetting>94970336</TestedWith1SnSetting>
+    <TestedWith1FwSetting>2.03.5</TestedWith1FwSetting>
+    <TestedWith1OptionsSetting>NA</TestedWith1OptionsSetting>
+    <TestedWith2ManfSetting>Fluke</TestedWith2ManfSetting>
+    <TestedWith2ModelSetting>179</TestedWith2ModelSetting>
+    <TestedWith2SnSetting>77840158</TestedWith2SnSetting>
+    <TestedWith2FwSetting>1.02.5</TestedWith2FwSetting>
+    <TestedWith2OptionsSetting>NA</TestedWith2OptionsSetting>
+    <PublishFileName>Fluke 179 1 Yr Ver using 5522A</PublishFileName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' "></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="sub_ini_file_io.mc">
+      <MainProcedure>False</MainProcedure>
+      <HiddenProcedure>True</HiddenProcedure>
+      <!--..\..\..\..\..\..\subs\sub_ini_file_io.txt-->
+    </Compile>
+    <Compile Include="sub_oper_prompts.mc">
+      <MainProcedure>False</MainProcedure>
+      <HiddenProcedure>True</HiddenProcedure>
+      <!--..\..\..\..\..\..\subs\sub_oper_prompts.txt-->
+    </Compile>
+    <Compile Include="sub_rif_wif_utils.mc">
+      <MainProcedure>False</MainProcedure>
+      <HiddenProcedure>True</HiddenProcedure>
+      <!--..\..\..\..\..\..\subs\sub_rif_wif_utils.txt-->
+    </Compile>
+    <Compile Include="sub_safety_warnings.mc">
+      <MainProcedure>False</MainProcedure>
+      <HiddenProcedure>True</HiddenProcedure>
+      <!--..\..\..\..\..\..\subs\sub_safety_warnings.txt-->
+    </Compile>
+    <Compile Include="sub_select_gb_method.mc">
+      <MainProcedure>False</MainProcedure>
+      <HiddenProcedure>True</HiddenProcedure>
+      <!--..\..\..\..\..\..\subs\sub_select_gb_method.txt-->
+    </Compile>
+    <Compile Include="sub_select_ver_method.mc">
+      <MainProcedure>False</MainProcedure>
+      <HiddenProcedure>True</HiddenProcedure>
+      <!--..\..\..\..\..\..\subs\sub_select_ver_method.txt-->
+    </Compile>
+    <Compile Include="sub_fluke_175_177_179_1yr_aci_dci_ver_5502.mc">
+      <HiddenProcedure>True</HiddenProcedure>
+      <!--..\..\subs\5502e\sub_fluke_175_177_179_1yr_aci_dci_ver_5502.mc-->
+    </Compile>
+    <Compile Include="sub_fluke_175_177_179_1yr_acv_ohms_cap_cont_ver_5502.mc">
+      <HiddenProcedure>True</HiddenProcedure>
+      <!--..\..\subs\5502e\sub_fluke_175_177_179_1yr_acv_ohms_cap_cont_ver_5502.mc-->
+    </Compile>
+    <Compile Include="sub_fluke_177_179_1yr_dcv_ver_5502.mc">
+      <HiddenProcedure>True</HiddenProcedure>
+      <!--..\..\subs\5502e\sub_fluke_177_179_1yr_dcv_ver_5502.mc-->
+    </Compile>
+    <Compile Include="sub_fluke_179_1yr_temp_ver_5502.mc">
+      <HiddenProcedure>True</HiddenProcedure>
+      <!--..\..\subs\5502e\sub_fluke_179_1yr_temp_ver_5502.mc-->
+    </Compile>
+    <Compile Include="sub_fluke_179_1yr_ver_5502.mc">
+      <HiddenProcedure>True</HiddenProcedure>
+      <!--..\..\subs\5502e\sub_fluke_179_1yr_ver_5502.mc-->
+    </Compile>
+    <Compile Include="Fluke 179 1 Yr Ver using 5522A.mc">
+      <MainProcedure>True</MainProcedure>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config_5522a.dat">
+      <!--..\..\..\..\..\..\ref\config\config_5522a.dat-->
+    </Content>
+    <Content Include="5520_179_TC.jpg">
+      <!--..\..\pic\5520_179_TC.jpg-->
+    </Content>
+    <Content Include="5520_17x_2W.jpg">
+      <!--..\..\pic\5520_17x_2W.jpg-->
+    </Content>
+    <Content Include="5520_17x_CW.jpg">
+      <!--..\..\pic\5520_17x_CW.jpg-->
+    </Content>
+    <Content Include="5520_17x_hi_amps.jpg">
+      <!--..\..\pic\5520_17x_hi_amps.jpg-->
+    </Content>
+    <Content Include="5520_17x_lo_amps.jpg">
+      <!--..\..\pic\5520_17x_lo_amps.jpg-->
+    </Content>
+  </ItemGroup>
+</Project>
